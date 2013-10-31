@@ -1,0 +1,43 @@
+/* Blue background */
+body {
+	/* background: none !important; */
+	background: url(../../images/Logo.png?ver=1.0.5051.30611) top right no-repeat !important;
+	background-color: #545443 !important;
+}
+
+/* Main logo */
+.MainLogo {
+	background: none !important;
+}
+
+/* Tabs' little blue top */
+.Tabs A.MenuItem, .Tabs A.MenuItem .ItemLeft {
+	color: #AAAAAA;
+	background: none !important;
+	/* background: url('http://brainbow/WebResource.axd?d=EngD09TEux1Vg6oATcK2_RSyN__lDQHF7e_UrMZOA3o6iwTH2dfT0omK6TjQX-ieukURXy4oXuuq58tU5wKUgy7zFQ-bk_zar4b0wjRE1fhyxGlb0&t=635187528206994351') !important; */
+}
+/* Left little blue top */
+/* .Tabs A.MenuItem .ItemLeft { */
+	/* background: none !important; */
+	/* background: url('http://brainbow/WebResource.axd?d=9sYOt3yuU5ruuSPXbyEck7qEJiKbRQ2lxTYLpyBHYUAgGGddbl7al9DfEM8QSOiwQBIgeDyYP2Jhx0_PCwFXV0myAJgi_bcECf7aenc_pCoi7gXn0&t=635187528206994351') !important; */
+/* } */
+/* Tab hover */
+.Tabs .Menu .Active A, .Tabs .Menu .Active A:hover
+{
+	color: Black;
+	background-image: none !important;
+}
+.Tabs .Menu .Active A .ItemLeft, .Tabs .Menu .Active A:hover .ItemLeft
+{
+	background-image: none !important;	
+}
+.Tabs .Menu A:hover, .Tabs .Menu A:active
+{
+	color: Black;
+	background-image: none !important;
+}
+.Tabs .Menu A:hover .ItemLeft, 
+.Tabs .Menu A:active .ItemLeft
+{
+	background-image: none !important;	
+}
