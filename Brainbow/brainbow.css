@@ -3,6 +3,11 @@ body {
 	/* background: none !important; */
 	background: url(../../images/Logo.png?ver=1.0.5051.30611) top right no-repeat !important;
 	background-color: #545443 !important;
+	color: #BDAE9D !important;
+}
+
+td {
+	color: #BDAE9D !important;
 }
 
 /* Main logo */
@@ -10,34 +15,157 @@ body {
 	background: none !important;
 }
 
-/* Tabs' little blue top */
+/* Tabs */
 .Tabs A.MenuItem, .Tabs A.MenuItem .ItemLeft {
 	color: #AAAAAA;
 	background: none !important;
 	/* background: url('http://brainbow/WebResource.axd?d=EngD09TEux1Vg6oATcK2_RSyN__lDQHF7e_UrMZOA3o6iwTH2dfT0omK6TjQX-ieukURXy4oXuuq58tU5wKUgy7zFQ-bk_zar4b0wjRE1fhyxGlb0&t=635187528206994351') !important; */
+	/* margin-right: 0px !important; */
 }
-/* Left little blue top */
-/* .Tabs A.MenuItem .ItemLeft { */
-	/* background: none !important; */
-	/* background: url('http://brainbow/WebResource.axd?d=9sYOt3yuU5ruuSPXbyEck7qEJiKbRQ2lxTYLpyBHYUAgGGddbl7al9DfEM8QSOiwQBIgeDyYP2Jhx0_PCwFXV0myAJgi_bcECf7aenc_pCoi7gXn0&t=635187528206994351') !important; */
-/* } */
+
 /* Tab hover */
-.Tabs .Menu .Active A, .Tabs .Menu .Active A:hover
+.Tabs .Menu .Active A, .Tabs .Menu .Active A:hover,
+.Tabs .Menu A:hover, .Tabs .Menu A:active
 {
-	color: Black;
+	color: #6EC766 !important;
 	background-image: none !important;
 }
 .Tabs .Menu .Active A .ItemLeft, .Tabs .Menu .Active A:hover .ItemLeft
 {
 	background-image: none !important;	
 }
-.Tabs .Menu A:hover, .Tabs .Menu A:active
-{
-	color: Black;
-	background-image: none !important;
-}
 .Tabs .Menu A:hover .ItemLeft, 
 .Tabs .Menu A:active .ItemLeft
 {
-	background-image: none !important;	
+	background-image: none !important;
+}
+
+div.Menu>a.MenuItem {
+	margin: 0px -1px !important;
+	padding-left: 0px !important;
+}
+
+/* Main background */
+.MainContent, .MainFooter {
+	background: none !important;
+	/* background-color: #4A413C !important; */
+	background-color: #383A32 !important;
+}
+
+/* Toolbar */
+.MainSubMenu .Menu {
+	background: none !important;
+}
+
+/* Sorted column in tables. */
+.Sorted {
+	/* background-color: #2A211C !important; */
+	background-color: #3F3F36 !important;
+}
+
+/* Table row separators */
+.Odd TD, .Even TD {
+	border-top: 1px solid #948A79 !important;
+}
+
+/* Links */
+a {
+	/* color: #6D822D !important; */
+	color: #7C9435 !important;
+}
+
+.MenuItem {
+	color: #AAAAAA !important;
+}
+
+div.MainMenu>span#MasterPageHeader1_mnuMain>div.Menu>span.Wrap>a.MenuItem>span.ItemLeft {
+	border-left: 1px solid black !important;
+	height: 26px !important;
+	z-index: 0 !important;
+	margin-top: -2px !important;
+	margin-left: -1px !important;
+}
+
+div.MainMenu>span#MasterPageHeader1_mnuMain>div.Menu {
+	background-color: #383A32 !important;
+	padding-bottom: 4px !important;
+	padding-top: 5px !important;
+	margin-top: -6px !important;
+	width: 692px !important;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.Spacer {
+	padding: 7px 0px 4px 5px !important;
+	border-left: 1px solid black !important;
+	border-bottom: 1px solid black !important;
+	background-color: #545443 !important;
+	margin-right: 6px !important;
+	margin-left: -7px !important;
+}
+
+span#MasterPageHeader1_mnuMain>div.Menu>span.Wrap>A.MenuItem {
+	padding: 5px 8px 4px 1px !important;
+	/* margin-right: 6px !important; */
+}
+span#MasterPageHeader1_mnuMain>div.Menu>span.Active>A.MenuItem, span#MasterPageHeader1_mnuMain>div.Menu>span.Active>A.MenuItem>span.ItemLeft {
+	border-bottom: 1px solid #383A32 !important;
+}
+
+
+tr.Odd>td, tr.Even>td {
+	vertical-align: middle !important;
+	padding: 2px 6px 2px 4px !important;
+}
+
+
+#MainContent {
+	border: 1px solid black !important;
+}
+
+.progressbarlarge-outer {
+	background-color: black;
+	border: 1px solid #777777;
+}
+.progressbarlarge-inner {
+	background-color: #772A21;
+}
+.progressbarlarge-text {
+	/* color: black; */
+}
+
+
+/* Breadcrumb Bar */
+ul.Breadcrumbs {
+	background-color: #383A32 !important;
+	border: 0px;
+	margin-left: 8px;
+}
+ul.Breadcrumbs>li {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	height: 24px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+ul.Breadcrumbs>li:first-child {
+	border-left: 1px solid black;
+	margin-top: -2px;
+}
+ul.Breadcrumbs>li:last-child {
+	border: none !important;
+	margin-top: -1px;
+}
+ul.Breadcrumbs>li:last-child>a {
+	background: none !important;
+}
+ul.Breadcrumbs>li:last-child>a>span.Text {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	padding-top: 7px !important;
+	padding-bottom: 8px !important;
+	padding-right: 5px;
+	margin-right: -4px;
 }
