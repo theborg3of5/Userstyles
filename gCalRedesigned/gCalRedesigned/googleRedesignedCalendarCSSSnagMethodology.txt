@@ -1,0 +1,27 @@
+﻿Chrome profile folder, gRedesigned extension folder, js\gr.js
+Added on line 286:
+
+			// Compare versions
+			self.readJSON(function(oldJSON) {
+				var updates = self.compareStyles(oldJSON, remoteJSON)
+				
+				chrome.storage.local.get(null, function(data) {
+					// Check to see if anything has been downloaded yet
+					var empty = false
+					
+					// ADDED GAVIN PRINTOUT HERE
+					console.log(data["Gcal Redesigned"]);
+					
+					remoteJSON.forEach(function(st) {
+						for (key in st) {
+							if (key != 'images') {
+								if (!data[key]) empty = true
+							}
+						}
+					})
+
+Then, in console/background inspect of gRedesigned in chrome:
+
+GR.checkForStyleUpdates();
+
+Output is what we want.
