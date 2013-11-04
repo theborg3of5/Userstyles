@@ -178,6 +178,7 @@ ul.Breadcrumbs>li:last-child>a>span.Text {
 #MasterPageHeader1_txtSearch {
 	border: 1px solid black;
 	background-color: #383A32;
+	color: #AAAAAA;
 }
 
 /* 'Guru Card' - description of session/event. */
