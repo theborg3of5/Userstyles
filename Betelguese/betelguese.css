@@ -1,0 +1,105 @@
+/* Logo */
+img.logoimage,
+.wmd-button {
+	/* -webkit-filter: invert(100%) brightness(50%); */
+	-webkit-filter: invert(100%) hue-rotate(180deg) brightness(50%) !important;
+}
+
+/* Backgrounds */
+body, 
+#top, 
+#searchBar, 
+#wrapper,
+#room, 
+#CARight, 
+
+.tabBar,
+.tabsA,
+#wmd-button-bar,
+#wmd-button-row,
+#previewer,
+.spacer3,
+#ground {
+	background-color: #2A211C !important;
+	background-image: none !important;
+}
+.boxC,
+#subscription_box, 
+#sidebar-upper, 
+#sidebar-lower
+{
+	background-color: #1B1009 !important;
+}
+
+/* Normal text */
+#top,
+.score,
+#top a,
+.options label,
+#question-table,
+.headQuestions,
+.answer,
+.headNormal,
+#CARight {
+	color: #BDAE9D !important;
+}
+
+/* Announcements */
+#announcement div {
+	background-color: #1B1009 !important;
+	color: #BDAE9D;
+	border: 1px solid #007A60 !important;
+}
+
+/* Input boxes */
+.searchInput,
+#editor {
+	background-color: #1F1A18 !important;
+	color: #BDAE9D !important;
+}
+
+/* Buttons/tabs */
+.submit {
+	background-color: #007A60;
+	border: 1px solid black;
+	color: yellow;
+}
+.add-comment-link,
+a.sidebar_button,
+.searchBtn
+{
+	background-color: #007A60 !important;
+	border: 1px solid black;
+	color: white !important;
+}
+.add-comment-link:hover,
+a.sidebar_button:hover {
+	background-color: #004F3E !important;
+}
+
+
+/* Tags */
+.tags a,
+.tabsA a {
+	background-color: #1F1A18;
+	border: 1px solid black !important;
+	color: #BDAE9D;
+}
+.tags a:hover,
+.tabsA a:hover,
+a.on:hover {
+	background-color: #004F3E !important;
+}
+a.on {
+	background-color: #1B1009 !important;
+}
+
+/* Top nav bar */
+#nav a {
+	background-color: #1F1A18;
+	border: 1px solid black !important;
+	color: #BDAE9D;
+}
+#nav a:hover {
+	background-color: #004F3E !important;
+}
