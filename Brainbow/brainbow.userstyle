@@ -1,3 +1,4 @@
+@-moz-document url-prefix("http://brainbow/") {
 /* Blue background */
 body {
 	/* background: none !important; */
@@ -213,4 +214,5 @@ ul.Breadcrumbs>li:last-child>a>span.Text {
 .MainFooter {
 	background-color: #545443 !important;
 	border: none !important;
+}
 }
