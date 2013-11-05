@@ -39,9 +39,18 @@ body,
 #question-table,
 .headQuestions,
 .answer,
+.accepted-answer,
 .headNormal,
 #CARight {
 	color: #BDAE9D !important;
+}
+
+
+.accepted-answer,
+.comment,
+.comment-text>p {
+	color: #BDAE9D !important;
+	background-color: #2A211C !important;
 }
 
 /* Announcements */
@@ -102,4 +111,9 @@ a.on {
 }
 #nav a:hover {
 	background-color: #004F3E !important;
+}
+
+/* Homepage/question list */
+#listA {
+	background-color: #2A211C !important;
 }

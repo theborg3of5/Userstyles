@@ -1,4 +1,4 @@
-@-moz-document url-prefix("http://betelgeuse.epic.com/") {
+@-moz-document url-prefix("http://betelgeuse") {
 /* Logo */
 img.logoimage,
 .wmd-button {
@@ -40,9 +40,18 @@ body,
 #question-table,
 .headQuestions,
 .answer,
+.accepted-answer,
 .headNormal,
 #CARight {
 	color: #BDAE9D !important;
+}
+
+
+.accepted-answer,
+.comment,
+.comment-text>p {
+	color: #BDAE9D !important;
+	background-color: #2A211C !important;
 }
 
 /* Announcements */

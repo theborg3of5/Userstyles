@@ -1,4 +1,4 @@
-@-moz-document url-prefix("http://brainbow/") {
+@-moz-document url-prefix("http://brainbow") {
 /* Blue background */
 body {
 	/* background: none !important; */
@@ -154,12 +154,21 @@ ul.Breadcrumbs>li {
 	padding-bottom: 2px;
 	margin-top: -2px;
 }
+ul.Breadcrumbs li a {
+	/* padding-right: 20px !important; */
+}
 ul.Breadcrumbs>li:first-child {
-	border-left: 1px solid black;
-	/* margin-top: -2px; */
+	border-left: 1px solid black !important;
+	border-top: 1px solid black !important;
+	border-bottom: 1px solid black !important;
+	margin-top: -2px !important;
+}
+ul.Breadcrumbs>li:first-child>a>span.Text {
+	margin-right: -10px !important;
+	padding-right: 10px !important;
 }
 ul.Breadcrumbs>li:last-child {
-	border: none !important;
+	border: none;
 	margin-top: -1px;
 }
 ul.Breadcrumbs>li:last-child>a {
@@ -179,6 +188,7 @@ ul.Breadcrumbs>li:last-child>a>span.Text {
 #MasterPageHeader1_txtSearch {
 	border: 1px solid black;
 	background-color: #383A32;
+	color: #AAAAAA;
 }
 
 /* 'Guru Card' - description of session/event. */
