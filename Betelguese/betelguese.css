@@ -41,7 +41,11 @@ body,
 .answer,
 .accepted-answer,
 .headNormal,
-#CARight {
+#CARight,
+.short-summary,
+.userinfo,
+.questions-count,
+.questions-count>span {
 	color: #BDAE9D !important;
 }
 
@@ -53,6 +57,12 @@ body,
 	background-color: #2A211C !important;
 }
 
+
+/* Other links */
+.userinfo a {
+	color: #007A60 !important;
+}
+
 /* Announcements */
 #announcement div {
 	background-color: #1B1009 !important;
@@ -62,7 +72,8 @@ body,
 
 /* Input boxes */
 .searchInput,
-#editor {
+#editor,
+#interestingTagInput {
 	background-color: #1F1A18 !important;
 	color: #BDAE9D !important;
 }
@@ -89,18 +100,33 @@ a.sidebar_button:hover {
 
 /* Tags */
 .tags a,
-.tabsA a {
-	background-color: #1F1A18;
+.tabsA a,
+a.page,
+.this_page,
+.next>a,
+.page>a,
+.curr {
+	background-color: #1F1A18 !important;
 	border: 1px solid black !important;
 	color: #BDAE9D;
 }
 .tags a:hover,
 .tabsA a:hover,
-a.on:hover {
+a.on:hover,
+a.page:hover,
+.next>a:hover {
 	background-color: #004F3E !important;
 }
 a.on {
 	background-color: #1B1009 !important;
+}
+span.page {
+	background-color: #1F1A18 !important;
+	border: none !important;
+	padding: 0px !important;
+}
+.page>a {
+	padding: .25em;
 }
 
 /* Top nav bar */
@@ -116,4 +142,10 @@ a.on {
 /* Homepage/question list */
 #listA {
 	background-color: #2A211C !important;
+}
+.votes, .views, .answered, .unanswered {
+	background-color: #1B1009;
+	color: #BDAE9D !important;
+	border: 1px solid black !important;
+	width: 45px !important;
 }
