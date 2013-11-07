@@ -1,0 +1,56 @@
+/* Apply theme to initial flash on new page open/change. */
+/*html {
+	background-color: #141414;
+}*/
+
+/* chrome:// Styles */
+/*html,*/
+#uber,
+.uber-frame h1, /* Headers */
+.uber-frame header, /* Headers (when scrolled) */
+.custom-appearance /* Buttons on left */
+{
+	background-attachment: fixed;
+	background-image: -webkit-image-set(
+	url(chrome://theme/IDR_THEME_NTP_BACKGROUND?mcnniofoibegodhmcnkjieiicifhikjl) 1x);
+	background-position: center bottom;
+	background-repeat: repeat;
+}
+
+#extension-settings-list, /* Settings list */
+.day, /* Date title */
+.day-results a, /* History: site title */
+#settings span, /* Settings text */
+#settings label, /* Settings text */
+#settings div, /* Settings text */
+#advanced-settings-container span, /* Settings text (hidden) */
+#advanced-settings-container label, /* Settings text (hidden) */
+#advanced-settings-container div, /* Settings text (hidden) */
+#advanced-settings-container p, /* Settings text (hidden) */
+#product-description h2, /* Help text */
+#product-description span, /* Help text */
+#version-container div, /* Help text */
+#product-container div /* Help text */
+{
+	color: grey !important;
+}
+
+.extension-title, /* Extension titles */
+.page h1, /* Header titles */
+#settings h3, /* Settings section titles */
+#advanced-settings-container h3 /* Settings section titles (hidden) */
+{
+	color: white !important;
+}
+
+body>ul>li.selected, /* Left bar: colored marker on left */
+body>ul>li.selected>button /* Left bar: text color */
+{
+	-webkit-border-start-color: #4BC100 !important;
+	color: white !important;
+}
+
+/* Styling about:blank */
+body:empty {
+	background-color: #141414;
+}
