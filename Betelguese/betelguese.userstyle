@@ -60,7 +60,8 @@ body,
 
 
 /* Other links */
-.userinfo a {
+.userinfo a,
+a.medal+a {
 	color: #007A60 !important;
 }
 
@@ -106,10 +107,11 @@ a.page,
 .this_page,
 .next>a,
 .page>a,
-.curr {
+.curr,
+.medal {
 	background-color: #1F1A18 !important;
 	border: 1px solid black !important;
-	color: #BDAE9D;
+	color: #BDAE9D !important;
 }
 .tags a:hover,
 .tabsA a:hover,
@@ -144,7 +146,10 @@ span.page {
 #listA {
 	background-color: #2A211C !important;
 }
-.votes, .views, .answered, .unanswered {
+.votes, 
+.views, 
+.answered, 
+.unanswered {
 	background-color: #1B1009;
 	color: #BDAE9D !important;
 	border: 1px solid black !important;

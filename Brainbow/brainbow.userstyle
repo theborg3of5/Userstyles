@@ -195,6 +195,9 @@ ul.Breadcrumbs>li:last-child>a>span.Text {
 .CardSection {
 	background-color: #383A32 !important;
 }
+.GuruSection {
+	color: #BDAE9D !important;
+}
 .GuruCard {
 	border: 1px solid black;
 	background: none !important;
@@ -225,4 +228,5 @@ ul.Breadcrumbs>li:last-child>a>span.Text {
 	background-color: #545443 !important;
 	border: none !important;
 }
+
 }
