@@ -1,0 +1,99 @@
+/* Main Body */
+body, .code1 {
+	color: #BDAE9D;
+}
+
+#ctl00_pnlContent {
+	margin-top: -1px;
+}
+
+.tr {
+    background: none !important;
+	background-color: #2B2B2B !important;
+	/*border-radius: 8px;*/
+    border: 1px solid #6E6E6E;
+}
+
+div.content {
+	background-color: transparent !important;
+}
+    
+a:link {
+    color: lightblue;
+}
+
+
+/* Code */
+
+font[color="BLUE"] {
+	color: orange !important;
+}
+
+.comments {
+	color: dodgerblue !important;
+}
+
+font[color="#0099FF"] {
+	color: forestgreen !important;
+}
+
+.code1 a:link {
+	color: red !important;
+}
+
+/* Other elements */
+
+.toolBar {
+  top: 50px !important;
+  /*right: 20px;*/
+}
+
+#ctl00_CntPl_RoutineViewer_routineToolBar_pnlRound_pnlContainer {
+  /*width: 320px !important;*/
+}
+
+#ctl00_CntPl_RoutineViewer_routineToolBar_pnlRound_btnUp {
+	/*margin-bottom: 1px;
+    -webkit-filter: invert(10%);*/
+  display: none;
+}
+
+/*.contentborder>font {
+	visibility: hidden;
+}*/
+
+.RoundGray .spacer2, .RoundGray .spacer1, .RoundGray .footerarea, .RoundGray .headerarea, .RoundGray .contentborder,
+.collapsePanel {
+	background-color: #114491 !important;
+    color: white;
+}
+
+.RoundShine .spacer2, .RoundShine .spacer1, .RoundShine .footerarea, .RoundShine .headerarea, .RoundShine .contentborder {
+	background: none !important;
+  	background-color: #114491 !important;
+}
+    
+#ctl00_CntPl_SrchFrm_pnlRound_pnlContainer, #ctl00_CntPl_SrchFrm_RoundedPanel1_pnlContainer {
+    width: 660px !important;
+}
+
+#ctl00_CntPl_SrchFrm_RoundedPanel1_btn_Jump {
+	float: right;
+	margin-right: 13px;
+}
+
+
+/* Toolbar */
+.level1 {
+  overflow: hidden;
+}
+
+.icon {
+  -webkit-filter: brightness(50%);
+  margin-bottom: -1px;
+}
+
+.icon[src$="inv.gif"] {
+  -webkit-filter: invert(83%);
+  margin-bottom: 0px;
+}
