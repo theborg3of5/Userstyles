@@ -74,7 +74,7 @@ font[color="#0099FF"] {
   	background-color: #114491 !important;
 }
     
-#ctl00_CntPl_SrchFrm_pnlRound_pnlContainer, #ctl00_CntPl_SrchFrm_RoundedPanel1_pnlContainer {
+#ctl00_CntPl_SrchFrm_pnlRound_pnlContainer, #ctl00_CntPl_SrchFrm_RoundedPanel1_pnlContainer, #ctl00_CntPl_RoutineViewer_roundedPanel_pnlContainer {
     width: 660px !important;
 }
 
