@@ -1,5 +1,5 @@
 /* Main Body */
-body, .code1 {
+body, .code1, .code0 {
 	color: #BDAE9D;
 }
 
@@ -37,8 +37,12 @@ font[color="#0099FF"] {
 	color: forestgreen !important;
 }
 
-.code1 a:link {
+.code1 a:link, .code0 a:link {
 	color: red !important;
+}
+
+.highlight {
+	background-color: black;
 }
 
 /* Other elements */
